@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+principal{
+	margin: 50px auto;
+}
+input[type="submit"] {
+	background: linear-gradient(#035796,#035796);
+	border: 0;
+	color: white;
+	opacity: 0.9;
+	cursor: pointer;
+	border-radius: 50px;
+	margin-bottom: 0; 
+}
+input[type="submit"]:hover {
+	opacity: 1;
+}
+input[type="submit"]:active {
+	transform: scale(0.95);
+}
+h3.estilo{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h4.estilo{
+    font-family: "Courier New", Courier, monospace";  
+    font-size:18px;
+    color: white;  
+}
